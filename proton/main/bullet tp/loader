@@ -1,0 +1,4 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdhscriptsinnawhilefrfrf/bestdhscriptsinnawhilefrfrf/main/proton/main/bullet%20tp/script"))()
