@@ -1,0 +1,9 @@
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
+
+if ExcaliburLoaded == true then
+  game:GetService("Players").LocalPlayer:Kick("Already injected!")
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdhscriptsinnawhilefrfrf/bestdhscriptsinnawhilefrfrf/main/excalibur/script"))()
