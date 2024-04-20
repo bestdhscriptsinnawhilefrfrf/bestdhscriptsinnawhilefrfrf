@@ -1,0 +1,8 @@
+if not game.IsLoaded(game) then game.Loaded.Wait(game.Loaded); end
+if getgenv().VertexLoaded then warn("Vertex is already injected!") return end
+getgenv().VertexLoaded = true
+
+if getgenv().Vertex then
+  script_key=getgenv().Vertex.Options.Key;
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f7c1f0e421f536963afa95b9eae8235a.lua"))()
+end
